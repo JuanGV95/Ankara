@@ -1,0 +1,113 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+} 
+.navbar{
+  width: 100%;
+  background-color: #F6F1E9;
+}
+
+.container .navbar-brand{
+  font-size: 26px;
+  padding: 0;
+  color: #4F200D;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.navbar-expand{
+  justify-content: space-around;
+}
+.cartNav img{
+  width: 30px;
+  filter: contrast(0.6);
+
+}
+.cartNav{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  gap:10px;
+}
+.cartNav h2{
+  margin: 0;
+  font-size: 22px;
+  color: #4F200D;
+}
+.conainer{
+  margin:0;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+.navbar-expand .navbar-nav .nav-link{
+  color: #4F200D;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav ul li{
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+/* greeting */
+.greeting{
+  padding: 20px;
+}
+
+/* css del añadir al carrito */
+.sumar-carrito{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sumarYRemover{
+  display: flex;
+  height: 35px;
+  
+  border: 1px solid #FFD93D;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 50px;
+}
+.sumarYRemover button{
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+
+}
+.sumarYRemover button img{
+  width: 14px;
+}
+
+.sumarYRemover p{
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4F200D;
+}
+.btn-carrito{
+  display: flex;
+  padding: 12px 15px;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #ff8400;
+  border: none;
+}
+.btn-carrito p{
+  margin: 0;
+  font-size: 14px;
+  color: #F6F1E9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+}
