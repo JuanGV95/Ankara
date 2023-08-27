@@ -1,17 +1,28 @@
 import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import data from '../data/data.json';
-import { ItemCount } from './ItemCount';
 import { ItemList } from './ItemList';
 
 export const ItemListContainter = (props) => {
     const [products, setProducts] = useState([]);
 
+    const { id } = useParams();
+    
+
     useEffect(() =>{
         const promise = new Promise((resolve, reject) =>{
             setTimeout(() => resolve(data), 2000);
         });
-        promise.then((data) => setProducts(data));
+        promise.then((data) => {
+            if(!id) {
+                setProducts(data);        
+            } else { 
+                const productsFiltered = data.filter(product => product.categoryId === id
+                    );
+                    setProducts(productsFiltered);
+            }
+        });
     }, []);
 
     return <Container className='greeting'>
@@ -19,7 +30,6 @@ export const ItemListContainter = (props) => {
         <div style={{display: "flex", flexWrap: "wrap"}}>
             <ItemList products={products} />
         </div>
-     <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantida agregada', quantity)}/>
     </Container>
    
 };

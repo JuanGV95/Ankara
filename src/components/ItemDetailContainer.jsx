@@ -1,25 +1,31 @@
 import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import data from '../data/data.json';
-import { ItemCount } from './ItemCount';
-import { ItemList } from './ItemList';
+import { ItemDetail } from './ItemDetail';
 
-export const ItemListContainter = (props) => {
-    const [product, setProducts] = useState(null);
+
+export const ItemDetailContainter = (props) => {
+    const [product, setProduct] = useState(null);
+
+    const {id} = useParams();
 
     useEffect(() =>{
         const promise = new Promise((resolve, reject) =>{
-            setTimeout(() => resolve(data[0]), 2000);
+            setTimeout(() => {
+            const productById = data.find(product => product.id === id);
+                resolve(productById)
+            }, 2000);
         });
-        promise.then((data) => setProducts(data));
+        promise.then((data) => setProduct(data));
     }, []);
 
-    return <Container className='greeting'>
-        <h1>{props.greeting}</h1>
-        <div style={{display: "flex", flexWrap: "wrap"}}>
-            <h1></h1>
-        </div>
-     <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantida agregada', quantity)}/>
+    if(!product) return <div>Loading...</div>
+
+    return ( 
+    <Container className='greeting'>
+        <h1>Detalle</h1>
+        <ItemDetail product={product} />
     </Container>
-   
+   )
 };

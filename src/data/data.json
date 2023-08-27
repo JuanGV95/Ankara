@@ -1,7 +1,7 @@
 [
     {
-        "id" : 1 ,
-        "categoryId" : "Gatos",
+        "id" : "1" ,
+        "categoryId" : "gatos",
         "title" : "Happy Circle con Pluma para Gatos",
         "description" : "Muchas horas de diversión para tu hijo de cuatro patas. Este juguete ofrecerá horas de diversión loca persiguiendo bolas para tu gato.",
         "price" : 8 ,
@@ -9,8 +9,8 @@
         "pictureUrl" : "gato1.jpg"
     },
     {
-        "id" : 2 ,
-        "categoryId" : "Gatos",
+        "id" : "2" ,
+        "categoryId" : "gatos",
         "title" : "Varita de ratón interactiva para gatos",
         "description" : "Varita mágica interactiva con un ratón, podrás interactuar y fortalecer las relaciones entre tú y tu gato.",
         "price" : 2 ,
@@ -18,8 +18,8 @@
         "pictureUrl" : "gato2.jpg"
     },
     {
-        "id" : 3 ,
-        "categoryId" : "Gatos",
+        "id" : "3" ,
+        "categoryId" : "gatos",
         "title" : "Juego Interactivo 4 Niveles con 3 Pelotas",
         "description" : "Cuenta con bolas encerradas en una carcasa de plástico duradera con aberturas en el lateral para permitir que la bola se mueva sin que se salga.",
         "price" : 8 ,
@@ -27,8 +27,8 @@
         "pictureUrl" : "gato3.jpg"
     },
     {
-        "id" : 4 ,
-        "categoryId" : "Gatos",
+        "id" : "4" ,
+        "categoryId" : "gatos",
         "title" : "Balance para Felinos con Bola de Hierba",
         "description" : "Evita el estrés en tu gato y ahórrate miles de inconvenientes con tus enseres. Regálale este hermoso y práctico juguete con el cual podrá disfrutar por horas.",
         "price" : 10,
@@ -36,8 +36,8 @@
         "pictureUrl" : "gato4.webp"
     },
     {
-        "id" : 5 ,
-        "categoryId" : "Gatos",
+        "id" : "5" ,
+        "categoryId" : "gatos",
         "title" : "Maleta guacal para transporte gatos razas pequeñas y medianas",
         "description" : "Maleta de mano grande, elaborado de material EVA que lo hace ligero, usable y portátil. Es resistente al agua y fácil de limpiar. Es plegable para guardarlo fácilmente cuando no lo necesites. Las correas de mano y la correa de hombre acolchada permiten variedad de opciones de transporte. ",
         "price" : 30,
@@ -45,8 +45,8 @@
         "pictureUrl" : "gato5.jpg"
     },
     {
-        "id" : 6 ,
-        "categoryId" : "Gatos",
+        "id" : "6" ,
+        "categoryId" : "gatos",
         "title" : "Tapete Comida Escondida",
         "description" : "Esta alfombrilla para gatos está hecha de fieltro de alta calidad, segura y no tóxica. Puede aliviar el estrés, apto para todos los gatos de cualquier edad y de cualquier tamaño.",
         "price" : 22 ,
@@ -54,8 +54,8 @@
         "pictureUrl" : "gato6.jpg"
     },
     {
-        "id" : 7 ,
-        "categoryId" : "Gatos",
+        "id" : "7" ,
+        "categoryId" : "gatos",
         "title" : "Juguete para gatos túnel pelota",
         "description" : "Tu michi pasara momentos de felicidad con este gran juguete, con el que te aseguro que pasara horas y horas de juego por su forma llamativa la cual es personalizable,  tendrás la posibilidad de ofrecerle un juego diferente y entretenido con tan solo intercambiar de lado sus partes y así de facil cambia de forma su juguete.",
         "price" : 13,
@@ -63,8 +63,8 @@
         "pictureUrl" : "gato7.webp"
     },
     {
-        "id" : 8 ,
-        "categoryId" : "Gatos",
+        "id" : "8" ,
+        "categoryId" : "gatos",
         "title" : "Pelota de Pluma",
         "description" : "Su perfecto tamaño le permitirá agarrarlo y lanzarlo de un lado a otro, divirtiéndose durante horas. Gracias a su gran resistencia y durabilidad, tu felino podrá morderlo y zarandearlo sin ningún problema, resistiendo por mucho tiempo.",
         "price" : 2,
@@ -72,8 +72,8 @@
         "pictureUrl" : "gato8.webp"
     },
     {
-        "id" : 9 ,
-        "categoryId" : "Gatos",
+        "id" : "9" ,
+        "categoryId" : "gatos",
         "title" : "Pelota de cascabel",
         "description" : "Su perfecto tamaño le permitirá agarrarlo y lanzarlo de un lado a otro, divirtiéndose durante horas. Gracias a su gran resistencia y durabilidad, tu felino podrá morderlo y zarandearlo sin ningún problema, resistiendo por mucho tiempo.",
         "price" : 2,
@@ -81,8 +81,8 @@
         "pictureUrl" : "gato9.webp"
     },
     {
-        "id" : 10 ,
-        "categoryId" : "Gatos",
+        "id" : "10" ,
+        "categoryId" : "gatos",
         "title" : "Pelota de cuerda",
         "description" : "Su perfecto tamaño le permitirá agarrarlo y lanzarlo de un lado a otro, divirtiéndose durante horas. Gracias a su gran resistencia y durabilidad, tu felino podrá morderlo y zarandearlo sin ningún problema, resistiendo por mucho tiempo.",
         "price" : 2,
@@ -90,8 +90,8 @@
         "pictureUrl" : "gato10.jpg"
     },
     {
-        "id" : 11 ,
-        "categoryId" : "Perros",
+        "id" : "11" ,
+        "categoryId" : "perros",
         "title" : "Juguete Rasca Encías para perro forma de hueso con iluminación",
         "description" : "El hueso de juguete para mascotas está diseñada con luces, que puede atraer la atención de tu perro y despertar su interés para jugar, dando un montón de diversión y seguridad a tu adorable mascota. ",
         "price" : 4 ,
@@ -99,8 +99,8 @@
         "pictureUrl" : "perro1.jpg"
     },
     {
-        "id" : 12 ,
-        "categoryId" : "Perros",
+        "id" : "12" ,
+        "categoryId" : "perros",
         "title" : "Pelota en Espiral para perro",
         "description" : "Ayuda a reducir la placa y el sarro sin cepillado, es simple, resistente al desgaste y resistente a la mordedura. Duradero, reutilizable, resistente y fácil de limpiar.",
         "price" : 4 ,
@@ -108,8 +108,8 @@
         "pictureUrl" : "perro2.webp"
     },
     {
-        "id" : 13 ,
-        "categoryId" : "Perros",
+        "id" : "13" ,
+        "categoryId" : "perros",
         "title" : "Hueso de juguete para perro",
         "description" : "Mantener entretenida a tu mascota a veces no es una tarea fácil, por eso este novedoso hueso te hará la vida mucho más fácil.",
         "price" : 4 ,
@@ -117,8 +117,8 @@
         "pictureUrl" : "perro3.webp"
     },
     {
-        "id" : 14 ,
-        "categoryId" : "Perros",
+        "id" : "14" ,
+        "categoryId" : "perros",
         "title" : "Dispensador y comedero automático de alimentación lenta para perro",
         "description" : "Este comedero es una maravilla porque tienes dos funciones muy importantes, te sirve como juguete, la mascota debe interactuar con el comedero y encontrar como puede sacar su propio alimento.",
         "price" : 35 ,
@@ -126,8 +126,8 @@
         "pictureUrl" : "perro4.jpg"
     },
     {
-        "id" : 15 ,
-        "categoryId" : "Perros",
+        "id" : "15" ,
+        "categoryId" : "perros",
         "title" : "Termo doble compartimento con plato plegable para perro",
         "description" : "Evite que su perro tome agua de fuentes inseguras. Ahora puede llevar cómodamente y con estilo la comida para los viajes, paseos y salidas de sus perros.",
         "price" : 14 ,
@@ -135,8 +135,8 @@
         "pictureUrl" : "perro5.webp"
     },
     {
-        "id" : 16 ,
-        "categoryId" : "Perros",
+        "id" : "16" ,
+        "categoryId" : "perros",
         "title" : "Absorbentes para Mascotas de uso diario",
         "description" : "Con los absorbentes Petys, tu mascota puede hacer sus necesidades en cas, mientras mantienes el piso de tu hogar completamente limpio.",
         "price" : 9 ,
@@ -144,8 +144,8 @@
         "pictureUrl" : "perro6.jpg"
     },
     {
-        "id" : 17 ,
-        "categoryId" : "Perros",
+        "id" : "17" ,
+        "categoryId" : "perros",
         "title" : "Riñonera Deportiva con Cinturón Elástico para perro",
         "description" : "Con este magnifico cinturón podrás salir a hacer deporte con tu amigo fiel, sin preocupaciones de incidentes en la vía.",
         "price" : 15 ,
@@ -153,8 +153,8 @@
         "pictureUrl" : "perro7.webp"
     },
     {
-        "id" : 18 ,
-        "categoryId" : "Perros",
+        "id" : "18" ,
+        "categoryId" : "perros",
         "title" : "Juguete Lanzador de Pelota para perro",
         "description" : "No te preocupes más de ensuciarte las manos, gracias al lanzador puedes tirar la pelota sin necesidad de tocarla pegajosa y llena de barro, manteniendo tus manos limpias. ¡Estas listo para unirte y divertirte con tus mascotas!.",
         "price" : 4 ,
@@ -162,8 +162,8 @@
         "pictureUrl" : "perro8.webp"
     },
     {
-        "id" : 19 ,
-        "categoryId" : "Perros",
+        "id" : "19" ,
+        "categoryId" : "perros",
         "title" : "Comedero y Bebedero Mascota 3 Compartimientos",
         "description" : "Si hablamos de diseño este comedero destaca por ello, incluye tres compartimientos para que le añadas los alimentos favoritos a tus mascotas, y destaca en el centro su gran burbuja donde estará almacenada el agua que beberá tu mascota, el agua sale por un orificio hacia uno de los compartimientos que tiene el comedero.",
         "price" : 26 ,
@@ -171,8 +171,8 @@
         "pictureUrl" : "perro9.jpg"
     },
     {
-        "id" : 20 ,
-        "categoryId" : "Perros",
+        "id" : "20" ,
+        "categoryId" : "perros",
         "title" : "Correa Retráctil para Mascota",
         "description" : "Puedes salir a correr con tu mascota tranquilamente, con la correa retráctil de 3 metros ser más sencillo hacer deporte, también para sacarlo a dar un paseo. Con diseño ergonómico, con variados colores.",
         "price" : 6 ,
@@ -180,8 +180,8 @@
         "pictureUrl" : "perro10.jpg"
     },
     {
-        "id" : 21 ,
-        "categoryId" : "Otros",
+        "id" : "21" ,
+        "categoryId" : "otros",
         "title" : "Puedes salir a correr con tu mascota tranquilamente, con la correa retráctil de 3 metros ser más sencillo hacer deporte, también para sacarlo a dar un paseo. Con diseño ergonómico, con variados colores.",
         "description" : "Como herramientas molares para tus mascotas, ayudándolas a moler los dientes en crecimiento y evitar que mastiquen la jaula y otros muebles Buenos juguetes para jugar y molar, mantiene a tus encantadoras mascotas saludables y activas.",
         "price" : 20,
@@ -189,8 +189,8 @@
         "pictureUrl" : "otro1.jpg"
     },
     {
-        "id" : 22 ,
-        "categoryId" : "Otros",
+        "id" : "22" ,
+        "categoryId" : "otros",
         "title" : "Kit de aseo de conejo",
         "description" : "Cepillo de aseo de conejo, cepillo removedor de pelo de mascotas, cepillo de baño con mango de anillo ajustable, cortaúñas para mascotas, peine para mascotas, juego de aseo para conejos",
         "price" : 5,
@@ -198,8 +198,8 @@
         "pictureUrl" : "otro2.jpg"
     },
     {
-        "id" : 23 ,
-        "categoryId" : "Otros",
+        "id" : "23" ,
+        "categoryId" : "otros",
         "title" : "Refugio para hámsters Prevue",
         "description" : "Satisface los instintos naturales de tu pequeño animal de explorar y esconderse",
         "price" : 30,
@@ -207,8 +207,8 @@
         "pictureUrl" : "otro3.jpg"
     },
     {
-        "id" : 24 ,
-        "categoryId" : "Otros",
+        "id" : "24" ,
+        "categoryId" : "otros",
         "title" : "Prevue Pet Products Naranja de dos pisos",
         "description" : "Hámster de dos pisos y jaula de jerbos, Incluye una rueda de ejercicio, plataforma, escalera y casa, Accede fácilmente a tu jaula desde la puerta de apertura superior",
         "price" : 43 ,
@@ -216,8 +216,8 @@
         "pictureUrl" : "otro4.jpg"
     },
     {
-        "id" : 25 ,
-        "categoryId" : "Otros",
+        "id" : "25" ,
+        "categoryId" : "otros",
         "title" : "Girasol Parque de juegos para gatos y gatos",
         "description" : "Cuenta con telas de felpa súper suaves, vibrantes y Los postes rascadores de cuerda de yute ofrecen una textura atractiva a los gatos, frenando comportamientos de arañazos inadecuados, La cama de flores le da a tu gatito un lugar para posarse y descansar",
         "price" : 87,
@@ -225,8 +225,8 @@
         "pictureUrl" : "otro5.jpg"
     },
     {
-        "id" : 26 ,
-        "categoryId" : "Otros",
+        "id" : "26" ,
+        "categoryId" : "otros",
         "title" : "Botella de agua para hámster",
         "description" : "Esta botella de agua para hámster incluye una botella de agua, base escondite y un pequeño recipiente de alimentos, es una pequeña botella de agua colgante para hámster, hámster enano, jerbo, conejos, cobayas, chinchillas, ratas, ratones pequeños y otros animales pequeños.",
         "price" : 10 ,
@@ -234,8 +234,8 @@
         "pictureUrl" : "otro6.jpg"
     },
     {
-        "id" : 27 ,
-        "categoryId" : "Otros",
+        "id" : "27" ,
+        "categoryId" : "otros",
         "title" : "Sombrero De Hámster De 4 Piezas",
         "description" : "Sombrero de hámster de 4 piezas, mini sombrero de animales pequeños con correa ajustable, bonito sombrero de punto a mano con rana, arco iris, zanahoria, pequeños sombreros para lagarto, conejillo de indias, reptiles, Navidad, fiestas, ropa, accesorios de disfraz",
         "price" : 26,
@@ -243,8 +243,8 @@
         "pictureUrl" : "otro7.jpg"
     },
     {
-        "id" : 28 ,
-        "categoryId" : "Otros",
+        "id" : "28" ,
+        "categoryId" : "otros",
         "title" : "aula de hámster pequeña para animales de 3 capas",
         "description" : "jaula puedes ver el hámr dentro de la jaula, lo que fomenta launicación entre el propietario y la mascota. Segundo piso elo loft, vida espaciosa. Proporcio un espacio donde se puede utilizar sin sentir calbres.",
         "price" : 57,
