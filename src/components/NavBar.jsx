@@ -12,7 +12,7 @@ export const NavBar = () => (
           <Nav.Link href="#">Inicio</Nav.Link>
           <Nav.Link href="#">Perros</Nav.Link>
           <Nav.Link href="#">Gatos</Nav.Link>
-          <Nav.Link href="#">Peces</Nav.Link>
+          <Nav.Link href="#">Otros</Nav.Link>
         </Nav>
         <CartWidget />
       </Container>

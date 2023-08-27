@@ -5,11 +5,11 @@ import { ItemCount } from './ItemCount';
 import { ItemList } from './ItemList';
 
 export const ItemListContainter = (props) => {
-    const [products, setProducts] = useState([]);
+    const [product, setProducts] = useState(null);
 
     useEffect(() =>{
         const promise = new Promise((resolve, reject) =>{
-            setTimeout(() => resolve(data), 2000);
+            setTimeout(() => resolve(data[0]), 2000);
         });
         promise.then((data) => setProducts(data));
     }, []);
@@ -17,7 +17,7 @@ export const ItemListContainter = (props) => {
     return <Container className='greeting'>
         <h1>{props.greeting}</h1>
         <div style={{display: "flex", flexWrap: "wrap"}}>
-            <ItemList products={products} />
+            <h1></h1>
         </div>
      <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantida agregada', quantity)}/>
     </Container>
