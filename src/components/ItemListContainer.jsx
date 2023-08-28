@@ -27,7 +27,7 @@ export const ItemListContainter = (props) => {
 
     return <Container className='greeting'>
         <h1>{props.greeting}</h1>
-        <div style={{display: "flex", flexWrap: "wrap"}}>
+        <div className='container-productos'>
             <ItemList products={products} />
         </div>
     </Container>

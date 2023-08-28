@@ -1,19 +1,11 @@
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
 
-export const Item = ({product}) =>  (
-<Card key={product.id} style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={require(`../assets/img/${product.pictureUrl}`)}  />
-        <Card.Body>
-          <Card.Title>{product.title}</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Link to={`/item/${product.id}`}>
-          <Button variant="primary">Ver detalle</Button>
-          </Link>
-        </Card.Body>
-      </Card>
-      );
+export const Item = ({ product }) => (
+  <section key={product.id} className='contenedor-card'>  
+      <img src={require(`../assets/img/${product.pictureUrl}`)} className='img-card' />
+      <h2>{product.title}</h2>
+      <Link className='boton-contenedor' to={`/item/${product.id}`} >
+        <button className='card-button'>Ver detalle</button>
+      </Link>
+  </section>
+);
