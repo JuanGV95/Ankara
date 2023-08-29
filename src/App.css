@@ -71,8 +71,7 @@ nav ul li{
 .sumarYRemover{
   display: flex;
   height: 35px;
-  
-  border: 1px solid #FFD93D;
+  background-color: #ffffff;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
@@ -116,12 +115,12 @@ nav ul li{
 .container-productos{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 30px;
 }
 
 .contenedor-card {
-  width: 14rem;
+  width: 23%;
   display: flex;
   flex-direction: column;
   height: 380px; 
@@ -169,3 +168,35 @@ nav ul li{
   border-radius: 5px;
   
 }
+
+/* CSS ItemDetail */
+.contenedor-detalle-item{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.img-detalle-item{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.detalles-item{ 
+  display: flex;
+  width: 100%;
+  height: min-content;
+  padding: 20px;
+  flex-direction: column;
+  background-color: #F6F1E9;
+  border-radius: 10px;
+}
+
+.detalles-item h1{
+  font-size: 28px;
+  color: #4F200D;
+}
+.detalle-item-p{
+  font-size: 18px;
+  color: #4F200D;
+}
+

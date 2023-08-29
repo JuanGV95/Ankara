@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import data from '../data/data.json';
 import { ItemList } from './ItemList';
-
 export const ItemListContainter = (props) => {
     const [products, setProducts] = useState([]);
 

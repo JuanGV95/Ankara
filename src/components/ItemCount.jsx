@@ -18,7 +18,6 @@ export const ItemCount = ({stock, initial, onAdd}) => {
     }
 return (
 <article className="sumar-carrito">
-        <h4>Cantidad</h4>
         <div className="sumarYRemover">
             <button onClick={removeItem}><img src={Remove} alt="remover"  /></button>
             <p>{quantity}</p>

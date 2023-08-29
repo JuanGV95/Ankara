@@ -7,7 +7,7 @@ export const NavBar = () => (
   <header className="header">
     <Navbar>
       <Container>
-        <Navbar.Brand href="#">Ankara</Navbar.Brand>
+        <Navbar.Brand href="/">Ankara</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="/">Inicio</Nav.Link>
           <Nav.Link href="/category/perros">Perros</Nav.Link>
