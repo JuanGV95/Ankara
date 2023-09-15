@@ -17,12 +17,11 @@ export const ItemListContainter = (props) => {
             if(!id) {
                 setProducts(data);        
             } else { 
-                const productsFiltered = data.filter(product => product.categoryId === id
-                    );
+                const productsFiltered = data.filter(product => product.categoryId === id);
                     setProducts(productsFiltered);
             }
         });
-    }, []);
+    }, [id]);
 
     return <Container className='greeting'>
         <h1>{props.greeting}</h1>
