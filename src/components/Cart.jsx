@@ -53,31 +53,32 @@ export const Cart = () => {
             <li>Nombre</li>
             <li>Precio</li>
             <li>Cantidad</li>
+            <li></li>
         </ul> 
-        <div className="articulos-detalle-compra">
+        <div >
             {cartList.map(item => (
-                <section key={item.id}>
-                    <article>{item.title} </article>
-                    <article>{item.price} </article>
-                    <article>{item.quantity} </article>
-                    <button onClick={() => removeItem(item.id)}>Eliminar</button>
+                <section key={item.id} className="articulos-detalle-compra">
+                    <article className="nombre-compra">{item.title} </article>
+                    <article className="nombre-compra">{item.price} </article>
+                    <article className="nombre-compra">{item.quantity} </article>
+                    <button onClick={() => removeItem(item.id)} className="boton-cart" >Eliminar</button>
                 </section>
             ))}
         </div>
             <ul className="total-detalle-compra">
-                <li>Total</li>
+                <li>Total:</li>
                 <li>{total()}</li>
             </ul>
             <form action="#" className="formulario-detalle-compra">
                 <label>Nombre</label>
-                <input type="text" name="name" onChange={handleChange} value={formValues.name} placeholder="Nombre" required/>
+                <input type="text" name="name" onChange={handleChange}  value={formValues.name} placeholder="Nombre" required />
                 <label>Telefono</label>
-                <input type="number" name="phone" onChange={handleChange} value={formValues.phone} placeholder="Telefono" required/>
+                <input type="number" name="phone" onChange={handleChange} value={formValues.phone} placeholder="Telefono" required />
                 <label>Email</label>
-                <input type="email" name="email" onChange={handleChange} value={formValues.email} placeholder="Email" required/>
+                <input type="email" name="email" onChange={handleChange} value={formValues.email} placeholder="Email" required />
 
+            <button onClick={sendOrder} className="boton-cart" >Comprar</button>   
             </form>
-            <button onClick={sendOrder}>Comprar</button>   
     </Container>
     </>
 }

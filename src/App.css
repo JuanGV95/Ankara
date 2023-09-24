@@ -1,3 +1,4 @@
+
 .header{
   width: 100%;
   display: flex;
@@ -200,3 +201,66 @@ nav ul li{
   color: #4F200D;
 }
 
+/* Css del CARRITO */
+
+.contenedor-detalle-compra, .formulario-detalle-compra{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contenedor-detalle-compra{
+  margin: 20px;
+  border-radius: 20px;
+  background-color: #F6F1E9;
+  gap: 10px;
+}
+
+.nombre-detalle-compra, .articulos-detalle-compra, .total-detalle-compra{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.nombre-detalle-compra, .articulos-detalle-compra{
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+
+
+.nombre-detalle-compra{
+  font-weight: bold;
+  color: #4F200D;
+}
+
+.nombre-compra{
+  width: 20%;
+  text-overflow: clip;
+}
+.nombre-precio, .nombre-cantidad{
+  width: 10%;
+
+}
+
+
+.total-detalle-compra{
+  justify-content: flex-end;
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.formulario-detalle-compra{
+  padding: 20px;
+}
+.boton-cart{
+background-color: #ff8400;
+  border: none;
+  color: #F6F1E9;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
