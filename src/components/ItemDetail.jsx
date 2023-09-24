@@ -3,7 +3,7 @@ import { ItemCount } from './ItemCount';
 import { CartContext } from '../contexts/CartContext';
 
 export const ItemDetail = ({product}) => {
-    const {addItem} = useContext(CartContext)
+    const { addItem } = useContext(CartContext)
     
     const onAdd = count => addItem(product, count)
     return (
